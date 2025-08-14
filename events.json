@@ -40,7 +40,22 @@
     "description": "Introduced in 1977, the first personal computer made technology accessible and affordable for individuals.",
     "imageURL": "firstcomp.jpg",
     "category": "Computers"
+  },
+  {
+    "year": 1989,
+    "title": "World Wide Web Proposal",
+    "description": "Tim Berners-Lee proposed the World Wide Web at CERN, aiming to link hypertext documents over the internet.",
+    "imageURL": "assets/images/www.jpg",
+    "category": "Internet"
+  },
+  {
+    "year": 2007,
+    "title": "iPhone Announced",
+    "description": "Apple announced the first iPhone, combining a phone, iPod, and internet communicator in one device, changing the smartphone industry.",
+    "imageURL": "assets/images/iphone.jpg",
+    "category": "Mobile"
   }
 ]
+
 
 
