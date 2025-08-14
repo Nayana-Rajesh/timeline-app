@@ -3,42 +3,42 @@
     "year": 1900,
     "title": "Invention of the Radio Transmitter",
     "description": "Around 1900, Guglielmo Marconi successfully developed and demonstrated wireless radio communication, revolutionizing long-distance communication.",
-    "imageURL": "assets/images/inv-of-radio.jpg",
+    "imageURL": "inv of radio.jpg",
     "category": "Technology"
   },
   {
     "year": 1910,
     "title": "First Commercial Radio Broadcast",
     "description": "In 1910, the first commercial radio broadcast took place, marking the beginning of audio broadcasting to large audiences.",
-    "imageURL": "assets/images/first-commercial-radio.jpg",
+    "imageURL": "first commercial radio broadcast.jpg",
     "category": "Media"
   },
   {
     "year": 1920,
     "title": "Birth of Modern Television",
     "description": "The 1920s saw early experiments with television technology, with John Logie Baird making progress in electronic video transmission.",
-    "imageURL": "assets/images/birth-of-modern-tv.jpg",
+    "imageURL": "birth of modern television.jpg",
     "category": "Technology"
   },
   {
     "year": 1930,
     "title": "Development of FM Radio",
     "description": "In 1933, Edwin Armstrong invented Frequency Modulation (FM) radio, improving sound quality and resistance to interference.",
-    "imageURL": "assets/images/fm-radio.jpg",
+    "imageURL": "Development of FM Radio.jpg",
     "category": "Technology"
   },
   {
     "year": 1940,
     "title": "Early Electronic Computers",
     "description": "The 1940s saw the creation of early electronic digital computers like the ENIAC, laying the foundation for modern computing.",
-    "imageURL": "assets/images/early-electronic-computers.jpg",
+    "imageURL": "Early Electronic Computers.jpg",
     "category": "Computers"
   },
   {
     "year": 1977,
     "title": "First Personal Computer",
     "description": "Introduced in 1977, the first personal computer made technology accessible and affordable for individuals.",
-    "imageURL": "assets/images/first-pc.avif",
+    "imageURL": "firstcomp.jpg",
     "category": "Computers"
   },
   {
@@ -56,3 +56,4 @@
     "category": "Mobile"
   }
 ]
+
