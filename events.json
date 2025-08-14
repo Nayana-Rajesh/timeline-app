@@ -40,20 +40,7 @@
     "description": "Introduced in 1977, the first personal computer made technology accessible and affordable for individuals.",
     "imageURL": "firstcomp.jpg",
     "category": "Computers"
-  },
-  {
-    "year": 1989,
-    "title": "Birth of the World Wide Web",
-    "description": "Tim Berners-Lee proposed the World Wide Web in 1989, changing the way information is accessed and shared.",
-    "imageURL": "assets/images/www.jpg",
-    "category": "Internet"
-  },
-  {
-    "year": 2007,
-    "title": "Introduction of the iPhone",
-    "description": "Apple introduced the iPhone in 2007, redefining the smartphone industry.",
-    "imageURL": "assets/images/iphone.jpg",
-    "category": "Mobile"
   }
 ]
+
 
