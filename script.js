@@ -15,6 +15,7 @@ function renderTimeline(events) {
   timeline.innerHTML = ''
   events.forEach(event => {
     const article = document.createElement('article')
+    article.id = `year-${event.year}`
     article.innerHTML = `
       <header>
         <p><time datetime="${event.year}">${event.year}</time></p>
@@ -31,6 +32,7 @@ function renderTimeline(events) {
   })
 }
 
+
 function attachEventHandlers() {
   document.querySelectorAll('#timeline button').forEach(button => {
     button.addEventListener('click', () => {
@@ -45,3 +47,4 @@ function attachEventHandlers() {
 closeModalBtn.addEventListener('click', () => {
   modal.setAttribute('hidden', '')
 })
+
