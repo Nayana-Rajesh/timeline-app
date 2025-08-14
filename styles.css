@@ -154,4 +154,19 @@ footer {
   #timeline {
     grid-template-columns: repeat(3, 1fr);
   }
+
+}
+.dark-theme {
+  background-color: #2f3640;
+  color: #f5f6fa;
+}
+
+.dark-theme header,
+.dark-theme footer {
+  background-color: #000;
+}
+
+.dark-theme #timeline article {
+  background-color: #353b48;
+  color: #f5f6fa;
 }
