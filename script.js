@@ -3,6 +3,12 @@ const modal = document.getElementById('modal')
 const modalTitle = modal.querySelector('h2')
 const modalContent = modal.querySelector('p')
 const closeModalBtn = modal.querySelector('button[aria-label="Close Modal"]')
+const toggleThemeBtn = document.querySelector('header button[aria-label="Toggle Theme"]')
+
+toggleThemeBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark-theme')
+})
+
 
 fetch('events.json')
   .then(response => response.json())
@@ -47,4 +53,5 @@ function attachEventHandlers() {
 closeModalBtn.addEventListener('click', () => {
   modal.setAttribute('hidden', '')
 })
+
 
