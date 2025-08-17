@@ -156,17 +156,26 @@ footer {
   }
 
 }
-.dark-theme {
+body.dark {
   background-color: #2f3640;
   color: #f5f6fa;
 }
 
-.dark-theme header,
-.dark-theme footer {
-  background-color: #000;
+body.dark header {
+  background-color: #192a56;
 }
 
-.dark-theme #timeline article {
-  background-color: #353b48;
+body.dark footer {
+  background-color: #192a56;
+}
+
+body.dark #timeline article {
+  background: #353b48;
   color: #f5f6fa;
 }
+
+body.dark #modal {
+  background: #353b48;
+  color: #f5f6fa;
+}
+
