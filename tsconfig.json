@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",              // modern JS
+    "module": "ES2020",              // ES modules for browser
+    "strict": true,                  // enable strict typing
+    "rootDir": "./src",              // where your TS files are
+    "outDir": "./dist",              // compiled JS output
+    "lib": ["ES2020", "DOM"],        // browser environment
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
