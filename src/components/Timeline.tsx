@@ -18,7 +18,7 @@ export default function Timeline() {
             <h2>{ev.title}</h2>
           </header>
           <figure>
-            <img src={`images/${ev.imageURL}`} alt={ev.title} />
+            <img src={`/images/${ev.imageURL}`} alt={ev.title} />
             <figcaption>{ev.category}</figcaption>
           </figure>
           <p>{ev.description}</p>
