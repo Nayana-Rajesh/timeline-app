@@ -183,3 +183,35 @@ body.dark #modal {
   background: #353b48;
   color: #f5f6fa;
 }
+/* modal backdrop covers whole screen */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* modal box */
+.modal {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80%;
+  overflow-y: auto;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+  z-index: 1001;
+}
+
+/* optional: dark mode */
+body.dark .modal {
+  background-color: #222;
+  color: #eee;
+}
