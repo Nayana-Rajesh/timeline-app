@@ -82,7 +82,7 @@ export default function EventModal({ event, onClose, triggerRef }: Props) {
         <p>
           <strong>Category:</strong> {event.category}
         </p>
-        <img src={`images/${event.imageURL}`} alt={event.title} />
+        <img src={`/images/${event.imageURL}`} alt={event.title} />
         <button onClick={onClose} aria-label="Close Modal">
           Close
         </button>
